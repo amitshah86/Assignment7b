@@ -41,7 +41,8 @@ function isVowel (char) {
 // ---------------------
 
 function rovarspraket(phrase){
-    //...
+
+
 }
 
 
@@ -49,16 +50,19 @@ function rovarspraket(phrase){
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
-}
+function reverse(backWards){
+var string = backWards.split(""); 
+var dog= string.reverse();
+var cat= dog.join("");
+return cat.toString();
+};
 
 // ---------------------
 // Write a function findLongestWord() that takes an array of words and returns the length of the longest one.
 // ---------------------
 
 function findLongestWord(words){
-    //...
+  
 }
 
 // ---------------------
